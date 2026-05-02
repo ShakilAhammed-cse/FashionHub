@@ -1,0 +1,348 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Us - FashionHub</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link rel="stylesheet" href="assets/css/templatemo-fashionhub.css">
+</head>
+<body>
+
+    <!-- ***** Header Area Start ***** -->
+    <header class="header-area header-sticky">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <nav class="main-nav">
+                        <!-- ***** Logo Start ***** -->
+                        <a href="/" class="logo">
+                            <img src="assets/images/logo.png">
+                        </a>
+                        <!-- ***** Logo End ***** -->
+                        <!-- ***** Menu Start ***** -->
+                        <ul class="nav">
+                            <li class="scroll-to-section"><a href="/">Home</a></li>
+                            <li class="scroll-to-section"><a href="/#men">Men's</a></li>
+                            <li class="scroll-to-section"><a href="/#women">Women's</a></li>
+                            <li class="scroll-to-section"><a href="/#kids">Kid's</a></li>
+                            <li class="submenu">
+                                <a href="javascript:;">Pages</a>
+                                <ul>
+                                    <li><a href="{{ route('about') }}">About Us</a></li>
+                                    <li><a href="{{ route('contact') }}">Contact Us</a></li>
+                                </ul>
+                            </li>
+                        </ul>
+                        <a class='menu-trigger'>
+                            <span>Menu</span>
+                        </a>
+                        <!-- ***** Menu End ***** -->
+                    </nav>
+                </div>
+            </div>
+        </div>
+    </header>
+    <!-- ***** Header Area End ***** -->
+
+    <!-- ***** Main Banner Area Start ***** -->
+    <div class="page-heading about-page-heading" id="top">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="inner-content">
+                        <h2>About Our Company</h2>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- ***** Main Banner Area End ***** -->
+
+    <!-- ***** About Area Starts ***** -->
+    <div class="about-us">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6">
+                    <div class="left-image">
+                        <img src="assets/images/about-left-image.jpg" alt="">
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <div class="right-content">
+                        <h4>About Us &amp; Our Skills</h4>
+                        <span>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod kon tempor incididunt ut labore.</span>
+                        <div class="quote">
+                            <i class="fa fa-quote-left"></i><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiuski smod kon tempor incididunt ut labore.</p>
+                        </div>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod kon tempor incididunt ut labore et dolore magna aliqua ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip.</p>
+                        <ul>
+                            <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+                            <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+                            <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
+                            <li><a href="#"><i class="fa fa-behance"></i></a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- ***** About Area Ends ***** -->
+
+    <!-- ***** Our Team Area Starts ***** -->
+    <section class="our-team">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="section-heading">
+                        <h2>Our Amazing Team</h2>
+                        <span>Details to details is what makes FashionHub different from the other themes.</span>
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <div class="team-item">
+                        <div class="thumb">
+                            <div class="hover-effect">
+                                <div class="inner-content">
+                                    <ul>
+                                        <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+                                        <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+                                        <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
+                                        <li><a href="#"><i class="fa fa-behance"></i></a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <img src="assets/images/team-member-01.jpg">
+                        </div>
+                        <div class="down-content">
+                            <h4>Ragnar Lodbrok</h4>
+                            <span>Product Caretaker</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <div class="team-item">
+                        <div class="thumb">
+                            <div class="hover-effect">
+                                <div class="inner-content">
+                                    <ul>
+                                        <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+                                        <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+                                        <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
+                                        <li><a href="#"><i class="fa fa-behance"></i></a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <img src="assets/images/team-member-02.jpg">
+                        </div>
+                        <div class="down-content">
+                            <h4>Ragnar Lodbrok</h4>
+                            <span>Product Caretaker</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <div class="team-item">
+                        <div class="thumb">
+                            <div class="hover-effect">
+                                <div class="inner-content">
+                                    <ul>
+                                        <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+                                        <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+                                        <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
+                                        <li><a href="#"><i class="fa fa-behance"></i></a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <img src="assets/images/team-member-03.jpg">
+                        </div>
+                        <div class="down-content">
+                            <h4>Ragnar Lodbrok</h4>
+                            <span>Product Caretaker</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- ***** Our Team Area Ends ***** -->
+
+    <!-- ***** Services Area Starts ***** -->
+    <section class="our-services">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="section-heading">
+                        <h2>Our Services</h2>
+                        <span>Details to details is what makes FashionHub different from the other themes.</span>
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <div class="service-item">
+                        <h4>Synther Vaporware</h4>
+                        <p>Lorem ipsum dolor sit amet, consecteturti adipiscing elit, sed do eiusmod temp incididunt ut labore, et dolore quis ipsum suspend.</p>
+                        <img src="assets/images/service-01.jpg" alt="">
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <div class="service-item">
+                        <h4>Locavore Squidward</h4>
+                        <p>Lorem ipsum dolor sit amet, consecteturti adipiscing elit, sed do eiusmod temp incididunt ut labore, et dolore quis ipsum suspend.</p>
+                        <img src="assets/images/service-02.jpg" alt="">
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <div class="service-item">
+                        <h4>Health Gothfam</h4>
+                        <p>Lorem ipsum dolor sit amet, consecteturti adipiscing elit, sed do eiusmod temp incididunt ut labore, et dolore quis ipsum suspend.</p>
+                        <img src="assets/images/service-03.jpg" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- ***** Services Area Ends ***** -->
+
+    <!-- ***** Subscribe Area Starts ***** -->
+    <div class="subscribe">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8">
+                    <div class="section-heading">
+                        <h2>By Subscribing To Our Newsletter You Can Get 30% Off</h2>
+                        <span>Details to details is what makes FashionHub different from the other themes.</span>
+                    </div>
+                    <form id="subscribe" action="" method="get">
+                        <div class="row">
+                          <div class="col-lg-5">
+                            <fieldset>
+                              <input name="name" type="text" id="name" placeholder="Your Name" required="">
+                            </fieldset>
+                          </div>
+                          <div class="col-lg-5">
+                            <fieldset>
+                              <input name="email" type="text" id="email" pattern="[^ @]*@[^ @]*" placeholder="Your Email Address" required="">
+                            </fieldset>
+                          </div>
+                          <div class="col-lg-2">
+                            <fieldset>
+                              <button type="submit" id="form-submit" class="main-dark-button"><i class="fa fa-paper-plane"></i></button>
+                            </fieldset>
+                          </div>
+                        </div>
+                    </form>
+                </div>
+                <div class="col-lg-4">
+                    <div class="row">
+                        <div class="col-6">
+                            <ul>
+                                <li>Store Location:<br><span>Sunny Isles Beach, FL 33160, United States</span></li>
+                                <li>Phone:<br><span>010-020-0340</span></li>
+                                <li>Office Location:<br><span>North Miami Beach</span></li>
+                            </ul>
+                        </div>
+                        <div class="col-6">
+                            <ul>
+                                <li>Work Hours:<br><span>07:30 AM - 9:30 PM Daily</span></li>
+                                <li>Email:<br><span>info@company.com</span></li>
+                                <li>Social Media:<br><span><a href="#">Facebook</a>, <a href="#">Instagram</a>, <a href="#">Behance</a>, <a href="#">Linkedin</a></span></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- ***** Subscribe Area Ends ***** -->
+
+
+@push('styles')
+<style>
+/* Simple About Page Styling */
+.about-page-heading {
+    padding: 60px 0;
+    background-color: #f8f9fa;
+}
+
+.about-page-heading .inner-content h2 {
+    font-size: 2.5rem;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.about-page-heading .inner-content span {
+    color: #777;
+    font-size: 1rem;
+}
+
+.about-us {
+    padding: 60px 0;
+}
+
+.about-us .right-content {
+    padding-left: 30px;
+}
+
+.about-us .right-content h4 {
+    font-size: 1.5rem;
+    margin-bottom: 15px;
+    color: #333;
+}
+
+.about-us .quote {
+    padding: 15px 20px;
+    border-left: 3px solid #ddd;
+    margin: 15px 0;
+    background-color: #fafafa;
+}
+
+.team-item .thumb {
+    overflow: hidden;
+}
+
+.team-item img {
+    width: 100%;
+    height: auto;
+}
+
+.team-item .down-content {
+    padding: 15px;
+    text-align: center;
+}
+
+.team-item .down-content h4 {
+    font-size: 1.1rem;
+    margin-bottom: 5px;
+}
+
+.service-item {
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+.service-item img {
+    width: 100%;
+    height: auto;
+    margin-top: 15px;
+}
+
+.subscribe {
+    padding: 60px 0;
+    background-color: #f8f9fa;
+}
+
+@media (max-width: 768px) {
+    .about-us .right-content {
+        padding-left: 0;
+        margin-top: 20px;
+    }
+}
+</style>
+@endpush
+
+<script src="https://code.jquery.com/jquery-2.1.0.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+<script src="assets/js/custom.js"></script>
+</body>
+</html>
