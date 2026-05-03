@@ -61,34 +61,21 @@ The project follows a structured software development approach including:
 
 ---
 
-## Project Deliverables (4-Week Plan)
+## Project Timeline (2-Week Plan)
 
-**Week 1 — Planning and Design**
+### Week 1 — Setup and Core Development
+- Requirement analysis and system planning  
+- Database design and project structure setup  
+- Laravel environment configuration  
+- User authentication system implementation  
+- Product and category management development  
 
-- Requirement analysis  
-- System architecture and database design  
-- Development environment setup  
-
-**Week 2 — Core Development**
-
-- User authentication implementation  
-- Product catalog and category management  
-- Administrative dashboard creation  
-
-**Week 3 — Functional Integration**
-
+### Week 2 — Integration and Finalization
 - Shopping cart implementation  
-- Checkout and order processing modules  
-- System integration  
-
-**Week 4 — Testing and Finalization**
-
+- Checkout and order processing system  
+- Admin dashboard completion  
 - System testing and debugging  
-- Performance optimization  
-- Documentation preparation  
-- Final submission  
-
----
+- Documentation preparation and final submission
 
 ## Expected Outcomes
 
